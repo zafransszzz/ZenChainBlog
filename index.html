@@ -1,53 +1,178 @@
-<p class="scroll-fade-in">
-  <strong>ZenChain</strong> represents a breakthrough in blockchain design—merging the uncompromising security principles of Bitcoin with the dynamic, programmable environment of Ethereum. By introducing seamless interoperability across chains, ZenChain is not just another blockchain; it's a catalyst for a truly interconnected and decentralized ecosystem.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZenChain: Bridging Bitcoin and Ethereum for a Decentralized Future</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
+    }
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.7;
+      scroll-behavior: smooth;
+    }
+    h1 {
+      color: white;
+      margin-top: 1.6em;
+      margin-bottom: 0.8em;
+      background-image: url('https://docs.zenchain.io/img/hero-2x-cropped.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 100px 20px 260px 20px;
+      border-radius: 12px;
+      text-shadow: 0 0 6px rgba(0,0,0,0.7);
+      position: relative;
+      z-index: 1;
+    }
+    h2, h3 {
+      color: #90caf9;
+      margin-top: 1.6em;
+      margin-bottom: 0.4em;
+    }
+    a {
+      color: #81d4fa;
+      text-decoration: none;
+      border-bottom: 1.5px solid #81d4fa;
+      transition: color 0.3s, border-bottom-color 0.3s;
+    }
+    a:hover {
+      color: #4fc3f7;
+      border-bottom-color: #4fc3f7;
+    }
+    p {
+      font-size: 1.05em;
+      margin-bottom: 1.4em;
+    }
+    .container {
+      background: #1e1e1e;
+      padding: 30px 40px;
+      border-radius: 14px;
+      box-shadow: 0 0 15px rgba(33, 150, 243, 0.7);
+    }
+    .background-break {
+      background-image: url('https://www.zenchain.io/_next/image?url=%2Fassets%2Fimages%2Ftoken-3d.webp&w=640&q=75');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 320px;
+      margin: 60px 0;
+      opacity: 0.1;
+      transform: scale(0.95);
+      transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+    }
+    .background-break.visible {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    .scroll-fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+    .scroll-fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    @media (max-width: 600px) {
+      body {
+        margin: 20px 15px;
+        padding: 15px;
+      }
+      .container {
+        padding: 20px;
+      }
+      h1 {
+        padding: 60px 15px 140px 15px;
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="scroll-fade-in">ZenChain: Bridging Bitcoin and Ethereum for a Decentralized Future</h1>
 
-<p class="scroll-fade-in">
-  Designed with a developer-first mindset and a user-centric approach, ZenChain enables efficient cross-chain operations without the usual trade-offs in performance, fees, or trust. The platform offers a solid foundation for developers building dApps and users seeking reliable, scalable, and low-cost solutions.
-</p>
+    <p class="scroll-fade-in">
+      <strong>ZenChain</strong> is a modern Layer 1 blockchain that combines Bitcoin’s proven security model with Ethereum’s versatility in smart contracts. This innovative protocol enables seamless interoperability between chains, creating a unified and decentralized environment for the future of Web3 technologies.
+    </p>
 
-<h2 class="scroll-fade-in">Core Innovations and Technical Highlights</h2>
+    <p class="scroll-fade-in">
+      Designed to empower both users and developers, ZenChain removes many limitations faced in traditional blockchains—delivering speed, efficiency, and multi-chain operability within a single ecosystem. It aims to enhance collaboration across networks, paving the way for scalable and sustainable adoption.
+    </p>
 
-<h3 class="scroll-fade-in">1. Cross-Chain Interoperability Framework (CCIF)</h3>
-<p class="scroll-fade-in">
-  At the heart of ZenChain lies the CCIF—a set of protocols and tools that enable fluid communication and asset transfer between ZenChain and other major blockchain platforms. It eliminates the need for centralized bridges, giving users full control over their assets while enabling effortless movement between ecosystems.
-</p>
+    <h2 class="scroll-fade-in">Key Features and Technologies</h2>
 
-<h3 class="scroll-fade-in">2. ZIP-20 Token Architecture</h3>
-<p class="scroll-fade-in">
-  The ZIP-20 token format enhances the well-known ERC-20 standard with built-in cross-chain functionality. It empowers tokens to exist and operate beyond a single blockchain, unlocking a future where assets are no longer bound by network silos.
-</p>
+    <h3 class="scroll-fade-in">1. Cross-Chain Interoperability Module (CCIM)</h3>
+    <p class="scroll-fade-in">
+      ZenChain's CCIM architecture is engineered to connect disparate blockchains by facilitating smooth exchange of data and assets. It eliminates the need for third-party bridges or wrapped tokens, allowing native assets to traverse networks effortlessly.
+    </p>
 
-<h3 class="scroll-fade-in">3. Validator-Based Liquidity Consensus (VBLC)</h3>
-<p class="scroll-fade-in">
-  ZenChain’s consensus model introduces validator incentives for maintaining liquidity across chains. This model fosters a decentralized economic system where participants are rewarded not only for block production but for supporting the health and usability of the entire network.
-</p>
+    <h3 class="scroll-fade-in">2. ZIP-20 Token Standard</h3>
+    <p class="scroll-fade-in">
+      The ZIP-20 protocol builds upon ERC-20, allowing tokens on ZenChain to operate across blockchains by default. This feature encourages wider token mobility, liquidity expansion, and inter-chain decentralized finance (DeFi) ecosystems.
+    </p>
 
-<div class="background-break scroll-fade-in"></div>
+    <h3 class="scroll-fade-in">3. Cross-Liquidity Consensus Mechanism (CLCM)</h3>
+    <p class="scroll-fade-in">
+      Unlike conventional proof systems, ZenChain’s CLCM incentivizes validators based on liquidity provision across networks. This not only maintains security and decentralization but also aligns economic rewards with the health of the wider ecosystem.
+    </p>
 
-<h3 class="scroll-fade-in">4. Intelligent Security Through AI</h3>
-<p class="scroll-fade-in">
-  Leveraging artificial intelligence, ZenChain constantly monitors transaction activity and network behavior to identify anomalies and potential vulnerabilities. The platform uses predictive algorithms and adaptive models to prevent threats before they escalate, offering robust real-time protection.
-</p>
+    <div class="background-break scroll-fade-in"></div>
 
-<h2 class="scroll-fade-in">Ecosystem Accessibility for Builders and Users</h2>
-<p class="scroll-fade-in">
-  Full compatibility with the Ethereum Virtual Machine (EVM) means developers can quickly deploy or migrate existing smart contracts to ZenChain without having to rewrite code. This allows for rapid dApp launches and compatibility with popular development frameworks.
-</p>
+    <h3 class="scroll-fade-in">4. AI-Powered Security</h3>
+    <p class="scroll-fade-in">
+      To proactively safeguard the network, ZenChain integrates machine learning-based anomaly detection. Its AI layer constantly monitors transactions and behaviors, flagging potential risks in real-time to mitigate vulnerabilities.
+    </p>
 
-<p class="scroll-fade-in">
-  For end users, ZenChain delivers a smooth experience with ultra-fast transaction finality—often within just a few seconds—and nominal transaction costs. It supports diverse applications, including decentralized finance (DeFi), digital collectibles (NFTs), supply chain verification, and immersive blockchain-based gaming.
-</p>
+    <h2 class="scroll-fade-in">Developer and User Ecosystem</h2>
+    <p class="scroll-fade-in">
+      ZenChain’s infrastructure is fully EVM-compatible, which makes it easy for Ethereum developers to deploy existing smart contracts without modification. This compatibility lowers the entry barrier and speeds up application launches on the network.
+    </p>
 
-<h2 class="scroll-fade-in">ZenQuest: Learn, Contribute, and Earn</h2>
-<p class="scroll-fade-in">
-  ZenQuest is an integrated learning and engagement layer that rewards participants for completing blockchain tutorials, providing community feedback, finding bugs, and participating in challenges. It's not just a reward program; it's a gamified pathway to becoming a blockchain contributor.
-</p>
+    <p class="scroll-fade-in">
+      End users benefit from blazing-fast confirmations under six seconds, ultra-low gas costs, and an intuitive environment suited for Web3 applications—from finance and gaming to NFTs and digital identities.
+    </p>
 
-<div class="scroll-fade-in" style="text-align:center; margin: 20px 0;">
-  <img src="https://docs.zenchain.io/assets/ideal-img/profile_page.fc6bf65.1440.png" alt="ZenChain Rewards" style="max-width: 100%; height: auto; border-radius: 10px;"/>
-</div>
+    <p class="scroll-fade-in">
+      Its SDKs, APIs, and documentation are crafted to make onboarding simple, enabling developers of all levels to innovate rapidly within the ecosystem. Community support and governance tools are also baked into the protocol to foster engagement and transparency.
+    </p>
 
-<p class="scroll-fade-in" style="margin-top: 2em;">
-  To become a participant and begin your journey, explore ZenQuest <a href="https://zenquest.zenchain.io?referral=Xt81EXFysqn730NeXr-so8J_pXiloBk3eEB_edepr80" target="_blank" rel="noopener noreferrer">through this link</a>.
-</p>
+    <h2 class="scroll-fade-in">ZenQuest: Incentivized Learning and Participation</h2>
+    <p class="scroll-fade-in">
+      ZenQuest is an educational and interactive initiative from ZenChain, offering rewards for completing tutorials, reporting issues, and contributing to ecosystem growth. By learning and participating, users earn tokens and badges—building both skill and reputation.
+    </p>
+
+    <div class="scroll-fade-in" style="text-align:center; margin: 20px 0;">
+      <img src="https://docs.zenchain.io/assets/ideal-img/profile_page.fc6bf65.1440.png" alt="ZenChain Rewards" style="max-width: 100%; height: auto; border-radius: 10px;"/>
+    </div>
+
+    <p class="scroll-fade-in" style="margin-top: 2em;">
+      Ready to earn while learning? Dive into ZenQuest and start your journey today. <a href="https://zenquest.zenchain.io?referral=Xt81EXFysqn730NeXr-so8J_pXiloBk3eEB_edepr80" target="_blank" rel="noopener noreferrer">Click here to join</a>.
+    </p>
+  </div>
+
+  <script>
+    const scrollElements = document.querySelectorAll('.scroll-fade-in, .background-break');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    scrollElements.forEach(el => observer.observe(el));
+  </script>
+</body>
+  </html>
